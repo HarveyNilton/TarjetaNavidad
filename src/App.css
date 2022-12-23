@@ -25,7 +25,9 @@
   height: 100vh;
   position: relative;
  overflow: hidden;
-  filter: blur(1px);
+  filter: blur(2px);
+ 
+  
 }
 
 .feliz{
@@ -53,7 +55,7 @@
 .phrase{
   position: absolute;
   top: 50px;
- 
+  
   padding: 20px;
     
     
@@ -65,6 +67,13 @@
   animation: color 4s infinite ;
 }
 
+.nieve{
+  width: 100vmin;
+  height: 100vh;
+  background-image: url('/nieve.gif');
+  position: absolute;
+  z-index: 1;
+}
 @keyframes color{ 
   0%{color: #46d829;}
   50%{color: #BC0000;}

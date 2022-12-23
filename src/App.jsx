@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="nieve"></div>
       <h1 className="feliz">
       ¡Feliz Navidad!!
       </h1>
@@ -30,9 +31,9 @@ function App() {
      <h2 className="phrase">
       {mensaje[index].mensaje}
      </h2>
-     <h4 className="name">
+     <h3 className="name">
      Atte. Harvey N. Lopez Quiñones
-      </h4>
+      </h3>
     </div>
   )
 }
