@@ -29,7 +29,7 @@ function App() {
     
       <img className='imag' src={arrayImag[indexImag]} alt="" />
      <h2 className="phrase">
-      {mensaje[1].mensaje}
+      {mensaje[index].mensaje}
      </h2>
      <h3 className="name">
      Atte. Harvey N. Lopez Quiñones
