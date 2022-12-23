@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 #root {
  
 }
@@ -11,7 +12,9 @@
 }
 
 .App{
-  font-family: 'Dancing Script', cursive;
+ 
+  
+ /* font-family: 'Lobster Two', cursive;*/
   height: 100vh;
   width: 100vw;
  
@@ -31,41 +34,57 @@
 }
 
 .feliz{
+  font-family: 'Alfa Slab One', cursive;
   position: absolute;
-  top: 10px;
+  top: 50px;
   left: 0;
   right: 0;
   color: #ffffff;
   z-index: 1;
   font-size: 6vmax;
   text-align: center;
-  animation: color 4s infinite ;
+  /*animation: color 4s infinite ;*/
   text-shadow: 2px 2px 8px rgb(247, 247, 247);
 }
-.name{
+.feliz-name{
+  font-family: 'Lobster Two', cursive;
   position: absolute;
-  bottom: 10px;
+  top: 140px;
   left: 0;
   right: 0;
   color: #ffffff;
+  z-index: 1;
+  font-size: 5vmax;
   text-align: center;
-  animation: color 4s infinite ;
+  /*animation: color 4s infinite ;*/
+  text-shadow: 2px 2px 8px rgb(247, 247, 247);
+}
+.feliz-initial{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: absolute;
+  top: 175px;
+  left: 0;
+  right: 0;
+  color: #ffffff;
+  z-index: 1;
+  font-size: 5vmax;
+  text-align: center;
+ /*animation: color 4s infinite ;*/
   text-shadow: 2px 2px 8px rgb(247, 247, 247);
 }
 
 .phrase{
   position: absolute;
-  top: 60px;
+  top: 210px;
   
   padding: 10px;
     
-    
   text-shadow: 2px 2px 8px rgb(247, 247, 247);
-
+color: white;
  text-align: center;
-  font-size: 4.6vmax;
+  font-size: 3vmax;
 
-  animation: color 4s infinite ;
+  /*animation: color 4s infinite ;*/
 }
 
 .nieve{
@@ -74,17 +93,31 @@
   background-image: url('/nieve.gif');
   position: absolute;
   z-index: 1;
+  opacity: 0.2;
 }
 @keyframes color{ 
-  0%{color: #46d829;}
+  0%{color: #21d5f5;}
   50%{color: #BC0000;}
   100%{color:  #ffffff;}
 }
 
 @media(min-width: 500px){
+  .feliz{
+    font-size: 8vmin;
+  }
+  .feliz-initial{
+    top: 210px;
+    font-size: 6vmin;
+  }
+  .feliz-name{
+    top: 160px;
+    font-size: 6vmin;
+  }
   .phrase{
     width: 100vmin;
-   
-    font-size: 6.5vmin;
+    height: 100vh;
+    font-size: 4vmin;
+    top: 250px;
   }
+  
 }

@@ -24,16 +24,20 @@ function App() {
     <div className="App">
       <div className="nieve"></div>
       <h1 className="feliz">
-      ¡Feliz Navidad!!
+      ¡Feliz <br /> Navidad!
       </h1>
+      <h2 className="feliz-name">
+      Harvey N. Lopez Quiñones
+      </h2>
+      <h2 className="feliz-initial">
+      HNLQ
+      </h2>
     
       <img className='imag' src={arrayImag[indexImag]} alt="" />
      <h2 className="phrase">
-      {mensaje[index].mensaje}
+      {mensaje[1].mensaje}
      </h2>
-     <h3 className="name">
-     Atte. Harvey N. Lopez Quiñones
-      </h3>
+    
     </div>
   )
 }
