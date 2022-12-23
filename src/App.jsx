@@ -8,7 +8,7 @@ console.log(mensaje);
 
 function App() {
   
-  const arrayImag = ['/src/assets/fondolila.jpg','/src/assets/nav.jpg','/src/assets/navi.jpg','/src/assets/arbol.jpg','/src/assets/arbol2.jpg','/src/assets/arbolrojo.jpg','/src/assets/bolona.jpg','/src/assets/fondo.jpg','/src/assets/fondoazull.jpg','/src/assets/fondodorado.jpg']
+  const arrayImag = ['/assets/fondolila.jpg','/assets/nav.jpg','/assets/navi.jpg','/assets/arbol.jpg','/assets/arbol2.jpg','/assets/arbolrojo.jpg','/assets/bolona.jpg','/assets/fondo.jpg','/assets/fondoazull.jpg','/assets/fondodorado.jpg']
   const [index, setIndex]=useState(0)
   const randomIndex = Math.floor(Math.random()*mensaje.length)
   const randomImag = Math.floor(Math.random()*arrayImag.length)
