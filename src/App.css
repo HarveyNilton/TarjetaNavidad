@@ -49,12 +49,12 @@
 .feliz-name{
   font-family: 'Lobster Two', cursive;
   position: absolute;
-  top: 140px;
+  top: 160px;
   left: 0;
   right: 0;
   color: #ffffff;
   z-index: 1;
-  font-size: 5vmax;
+  font-size: 4.5vmax;
   text-align: center;
   /*animation: color 4s infinite ;*/
   text-shadow: 2px 2px 8px rgb(247, 247, 247);
@@ -62,7 +62,7 @@
 .feliz-initial{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
-  top: 175px;
+  top: 195px;
   left: 0;
   right: 0;
   color: #ffffff;
@@ -75,7 +75,7 @@
 
 .phrase{
   position: absolute;
-  top: 210px;
+  top: 240px;
   
   padding: 10px;
     
