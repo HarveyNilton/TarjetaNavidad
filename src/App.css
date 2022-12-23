@@ -44,7 +44,7 @@
   font-size: 6vmax;
   text-align: center;
   /*animation: color 4s infinite ;*/
-  text-shadow: 2px 2px 8px rgb(247, 247, 247);
+  text-shadow: 2px 2px 8px #30360f;
 }
 .feliz-name{
   font-family: 'Lobster Two', cursive;
@@ -57,7 +57,7 @@
   font-size: 4.5vmax;
   text-align: center;
   /*animation: color 4s infinite ;*/
-  text-shadow: 2px 2px 8px rgb(247, 247, 247);
+  text-shadow: 2px 2px 8px #30360f;
 }
 .feliz-initial{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -70,7 +70,7 @@
   font-size: 5vmax;
   text-align: center;
  /*animation: color 4s infinite ;*/
-  text-shadow: 2px 2px 8px rgb(247, 247, 247);
+  text-shadow: 2px 2px 8px #30360f;
 }
 
 .phrase{
@@ -79,11 +79,11 @@
   
   padding: 10px;
     
-  text-shadow: 2px 2px 8px rgb(247, 247, 247);
+  text-shadow: 2px 2px 8px #30360f;
 color: white;
  text-align: center;
   font-size: 2.6vmax;
-
+  font-family: cursive;  
   /*animation: color 4s infinite ;*/
 }
 
