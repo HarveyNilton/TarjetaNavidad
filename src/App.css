@@ -56,13 +56,13 @@
   position: absolute;
   top: 50px;
   
-  padding: 20px;
+  padding: 10px;
     
     
   text-shadow: 2px 2px 8px rgb(247, 247, 247);
 
  text-align: center;
-  font-size: 5vmax;
+  font-size: 4.8vmax;
 
   animation: color 4s infinite ;
 }
