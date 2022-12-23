@@ -4,11 +4,9 @@ import './App.css'
 import mensaje from '/src/data/bd.json'
 
 
-console.log(mensaje);
-
 function App() {
   
-  const arrayImag = ['/fondolila.jpg','/nav.jpg','/navi.jpg','/arbol.jpg','/arbol2.jpg','/arbolrojo.jpg','/bolona.jpg','/fondo.jpg','/fondoazull.jpg','/fondodorado.jpg']
+  const arrayImag = ['/fondolila.jpg','/nav.jpg','/navi.jpg','/catorce.jpg','/arbol2.jpg','/arbolrojo.jpg','/bolona.jpg','/cinco.jpg','/veintytres.jpg','/veintycuatro.jpg','/veinteyuno.jpg','/veinteydos.jpg','/veinte.jpg','/uno.jpg','/tres.jpg','/trece.jpg','/siete.jpg','/seis.jpg','/quince.jpg','/once.jpg','/ocho.jpg','/nueve.jpg','/dos.jpg','/doce.jpg','/diezyocho.jpg','/diez.jpg','/diesiete.jpg','/fondoazull.jpg','/fondodorado.jpg']
   const [index, setIndex]=useState(0)
   const randomIndex = Math.floor(Math.random()*mensaje.length)
   const randomImag = Math.floor(Math.random()*arrayImag.length)
