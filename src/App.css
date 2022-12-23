@@ -62,7 +62,7 @@
 .feliz-initial{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: absolute;
-  top: 220px;
+  top: 260px;
   left: 0;
   right: 0;
   color: #ffffff;
@@ -75,7 +75,7 @@
 
 .phrase{
   position: absolute;
-  top: 270px;
+  top: 310px;
   
   padding: 10px;
     
