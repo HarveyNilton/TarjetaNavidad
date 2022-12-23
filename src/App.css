@@ -53,13 +53,14 @@
 .phrase{
   position: absolute;
   top: 50px;
-  
+  left: 0;
+  range: 0;
   padding: 20px;
     
-    border: 1px solid red;
+    
   text-shadow: 2px 2px 8px rgb(247, 247, 247);
 
-  text-align: center;
+ text-align: center;
   font-size: 5vmax;
 
   animation: color 4s infinite ;
