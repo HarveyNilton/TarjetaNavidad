@@ -28,7 +28,7 @@
   height: 100vh;
   position: relative;
  overflow: hidden;
-  filter: blur(2px);
+  /*filter: blur(2px);*/
  
   
 }
