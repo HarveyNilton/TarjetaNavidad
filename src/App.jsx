@@ -33,7 +33,7 @@ function App() {
     
       <img className='imag' src={arrayImag[indexImag]} alt="" />
      <h2 className="phrase">
-      {mensaje[index].mensaje}
+      {mensaje[1].mensaje}
      </h2>
     
     </div>
