@@ -30,12 +30,12 @@ function App() {
       Harvey N. Lopez Quiñones
       </h2>
       <h2 className="feliz-initial">
-      HNLQ
+      ** HNLQ **
       </h2>
     
       <img className='imag' src={arrayImag[indexImag]} alt="" />
      <h2 className="phrase">
-      {mensaje[1].mensaje}
+      {mensaje[index].mensaje}
      </h2>
     
     </div>
