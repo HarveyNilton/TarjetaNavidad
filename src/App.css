@@ -32,6 +32,13 @@
  
   
 }
+.logo-mgp{
+  width: 15%;
+  position: absolute;
+  z-index: 1;
+  left: 4px;
+  top: 6px;
+}
 .container{
   display: flex;
   flex-direction: column;

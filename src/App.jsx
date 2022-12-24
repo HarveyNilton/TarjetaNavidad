@@ -21,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <div className="nieve"></div>
+      <img className='logo-mgp' src="/escudo.png" alt="" />
       <div className='container'>
         <h1 className="feliz">¡Feliz <br /> Navidad!</h1>
         <h2 className="feliz-name">Harvey N. Lopez Quiñones</h2>
