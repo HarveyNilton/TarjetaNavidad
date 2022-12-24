@@ -32,6 +32,14 @@
  
   
 }
+.gorro{
+  width: 20%;
+ margin: 0 auto;
+ stroke: 1px #ffffff;
+ scroll-behavior: 1px red;
+ 
+}
+
 .logo-mgp{
   width: 15%;
   position: absolute;
