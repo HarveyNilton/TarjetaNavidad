@@ -52,11 +52,12 @@
 
 .feliz{
   font-family: 'Alfa Slab One', cursive;
-  color: #ffffff;
+  color: #f70606;
   font-size: 6vmax;
   text-align: center;
   animation: color 4s infinite ;
   text-shadow: 2px 2px 8px #30360f;
+  -webkit-text-stroke: 1px #ffffff;
 }
 .feliz-name{
   font-family: 'Lobster Two', cursive;
@@ -65,6 +66,7 @@
   text-align: center;
   animation: color 4s infinite ;
   text-shadow: 2px 2px 8px #30360f;
+ 
 }
 .feliz-initial{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -72,7 +74,7 @@
   color: #ffffff;
   font-size: 5vmax;
  
- 
+  -webkit-text-stroke: 0.5px #ffffff;
   text-align: center;
   animation: color 4s infinite ;
   text-shadow: 2px 2px 8px #30360f;
@@ -97,9 +99,9 @@
   opacity: 0.2;
 }
 @keyframes color{ 
-  0%{color: #212ff5;}
-  50%{color: #BC0000;}
-  100%{color:  #ffffff;}
+  0%{color: #f52944;}
+  50%{color: #f51313;}
+  100%{color: #0a5e15;}
 }
 
 @media(min-width: 500px){
