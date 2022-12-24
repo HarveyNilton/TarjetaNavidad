@@ -25,7 +25,7 @@ function App() {
         <h1 className="feliz">¡Feliz <br /> Navidad!</h1>
         <h2 className="phrase">Te saluda</h2>
         <h2 className="feliz-name">Harvey N. Lopez Quiñones</h2>
-        <h2 className="phrase">** Con este mensaje: **</h2>
+        <h2 className="phrase">** Con este pequeño mensaje: **</h2>
         <h2 className="phrase">{mensaje[index].mensaje}</h2>
       </div>
       
