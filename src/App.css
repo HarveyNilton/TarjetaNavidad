@@ -27,20 +27,25 @@
  width: 100vmin;
   height: 100vh;
   position: relative;
- overflow: hidden;
+
   /*filter: blur(2px);*/
  
   
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: all 0.5 linear;
+  height: 100vh;
+  gap: 5px;
+  position: absolute;
+  z-index: 1;
+}
 
 .feliz{
   font-family: 'Alfa Slab One', cursive;
-  position: absolute;
-  top: 90px;
-  left: 0;
-  right: 0;
   color: #ffffff;
-  z-index: 1;
   font-size: 6vmax;
   text-align: center;
   animation: color 4s infinite ;
@@ -48,12 +53,7 @@
 }
 .feliz-name{
   font-family: 'Lobster Two', cursive;
-  position: absolute;
-  top: 230px;
-  left: 0;
-  right: 0;
   color: #ffffff;
-  z-index: 1;
   font-size: 4.5vmax;
   text-align: center;
   animation: color 4s infinite ;
@@ -61,12 +61,7 @@
 }
 .feliz-initial{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: absolute;
-  top: 300px;
-  left: 0;
-  right: 0;
   color: #ffffff;
-  z-index: 1;
   font-size: 5vmax;
   text-align: center;
   animation: color 4s infinite ;
@@ -74,14 +69,10 @@
 }
 
 .phrase{
-  position: absolute;
-  top: 350px;
-  
   padding: 10px;
-    
   text-shadow: 2px 2px 8px #30360f;
-color: white;
- text-align: center;
+  color: white;
+  text-align: center;
   font-size: 2.6vmax;
   font-family: cursive;  
   animation: color 4s infinite ;

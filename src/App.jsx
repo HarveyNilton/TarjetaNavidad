@@ -21,20 +21,15 @@ function App() {
   return (
     <div className="App">
       <div className="nieve"></div>
-      <h1 className="feliz">
-      ¡Feliz <br /> Navidad!
-      </h1>
-      <h2 className="feliz-name">
-      Harvey N. Lopez Quiñones
-      </h2>
-      <h2 className="feliz-initial">
-      ** HNLQ **
-      </h2>
-    
+      <div className='container'>
+        <h1 className="feliz">¡Feliz <br /> Navidad!</h1>
+        <h2 className="feliz-name">Harvey N. Lopez Quiñones</h2>
+        <h2 className="feliz-initial">** HNLQ **</h2>
+        <h2 className="phrase">{mensaje[index].mensaje}</h2>
+      </div>
+      
       <img className='imag' src={arrayImag[indexImag]} alt="" />
-     <h2 className="phrase">
-      {mensaje[1].mensaje}
-     </h2>
+     
     
     </div>
   )
